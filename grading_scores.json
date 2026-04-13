@@ -1,0 +1,79 @@
+{
+  "results": [
+    {
+      "id": "gq01",
+      "grade": "Full",
+      "score": 10,
+      "max_score": 10,
+      "reason": "The answer correctly states the current SLA (4 giờ) and the previous SLA (6 giờ), provides a citation with the version v2026.1 and effective date, and does not introduce any extraneous version information."
+    },
+    {
+      "id": "gq02",
+      "grade": "Penalty",
+      "score": -5,
+      "max_score": 10,
+      "reason": "The answer provides the correct information but fails to cite the required sources correctly. It only includes a single, non‑existent citation \"[5]\" which is not among the provided documents, constituting a hallucination. It also does not provide citations from at least two different sources as required. Consequently, the answer does not satisfy the citation criteria and contains a hallucinated reference."
+    },
+    {
+      "id": "gq03",
+      "grade": "Full",
+      "score": 10,
+      "max_score": 10,
+      "reason": "The answer provides a clear conclusion that the order is not refundable, correctly mentions both the Flash Sale exception and the product activation exception, addresses at least two exceptions, and includes a citation to the policy document (policy/refund-v4.pdf). No hallucinations are present."
+    },
+    {
+      "id": "gq04",
+      "grade": "Full",
+      "score": 8,
+      "max_score": 8,
+      "reason": "The answer provides the correct percentage (110%), clearly indicates it is an optional choice ('Nếu chọn...'), and includes a citation to the required source (policy/refund-v4.pdf). All criteria are met with no hallucination."
+    },
+    {
+      "id": "gq05",
+      "grade": "Zero",
+      "score": 0,
+      "max_score": 10,
+      "reason": "The answer does not satisfy any of the grading criteria. It states that the documents do not contain information about contractors receiving admin access, and provides no confirmation of eligibility, approvers, time frame, or training requirements. Therefore, less than 50% of the criteria are met."
+    },
+    {
+      "id": "gq06",
+      "grade": "Partial",
+      "score": 6,
+      "max_score": 12,
+      "reason": "The answer correctly states that Tech Lead verbal approval is required, that the temporary permission lasts a maximum of 24 hours, and that it must be logged in the Security Audit. However, it refers to an \"on‑call engineer\" rather than the specific \"on‑call IT Admin\" required by the first criterion, and it does not mention the on‑call hotline extension (bonus). Thus 3 out of 5 criteria are met (≥50%), yielding a partial grade."
+    },
+    {
+      "id": "gq07",
+      "grade": "Full",
+      "score": 10,
+      "max_score": 10,
+      "reason": "The answer does not fabricate any penalty amount, clearly states that the information is not found in the provided documents, and avoids making unsupported claims. It meets all required criteria; the optional suggestion is not mandatory."
+    },
+    {
+      "id": "gq08",
+      "grade": "Partial",
+      "score": 5,
+      "max_score": 10,
+      "reason": "The answer correctly states that annual leave must be requested at least 3 working days in advance and that sick leave over 3 days requires medical documentation, satisfying 2 of the 4 criteria (50%). However, it does not clearly distinguish the two contexts and even conflates them by saying the numbers are the same, violating the criteria for clear differentiation and non-mixing of regulations. No hallucinated information was detected."
+    },
+    {
+      "id": "gq09",
+      "grade": "Full",
+      "score": 8,
+      "max_score": 8,
+      "reason": "The answer satisfies all grading criteria: it confirms that the company account password must be changed periodically, correctly states the 90‑day cycle, correctly mentions the 7‑day prior reminder, and provides two valid channels for changing the password (SSO portal link and Helpdesk extension 9000). No information appears to be hallucinated beyond the cited sources."
+    },
+    {
+      "id": "gq10",
+      "grade": "Full",
+      "score": 10,
+      "max_score": 10,
+      "reason": "The answer meets all four criteria: it clearly concludes that the current refund policy does not apply to orders placed before 01/02/2026, correctly states the effective date, mentions that version 3 applies to older orders, and provides a citation to the policy document that presumably contains the effective date."
+    }
+  ],
+  "summary": {
+    "total_score": 62,
+    "max_score": 98,
+    "percentage": 63.26530612244898
+  }
+}
