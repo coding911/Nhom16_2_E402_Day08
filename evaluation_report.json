@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Dense",
+    "faithfulness": 0.2907814407814408,
+    "relevance": 0.3286363636363636,
+    "context_recall": 0.195,
+    "completeness": 0.42833333333333334,
+    "latency": 4.741096925735474
+  },
+  {
+    "name": "Hybrid",
+    "faithfulness": 0.287539592640513,
+    "relevance": 0.4647474747474748,
+    "context_recall": 0.195,
+    "completeness": 0.5833333333333333,
+    "latency": 8.935112404823304
+  },
+  {
+    "name": "Hybrid + Rerank",
+    "faithfulness": 0.2957749563815061,
+    "relevance": 0.5330808080808082,
+    "context_recall": 0.195,
+    "completeness": 0.6166666666666667,
+    "latency": 9.470334720611572
+  }
+]
